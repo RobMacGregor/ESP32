@@ -15,7 +15,7 @@ from ota_update.main.ota_updater import OTAUpdater
 
 
  def download_and_install_update_if_available():
-     o = OTAUpdater('https://github.com/RobMacGregor/ESP32_Basic')
+     o = OTAUpdater('https://github.com/RobMacGregor/ESP32')
      o.download_and_install_update_if_available('NETGEAR21', 'Riverview')
 
 
